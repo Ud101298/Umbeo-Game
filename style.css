@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+
+}
+body{
+	background-image: url('thumb-1920-519000.jpg');
+	background-size: cover;
+
+
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 10px auto;
+	background-color: #272727;
+}
+table tr td{
+	width: 150px;
+	height: 150px;
+	border: 1px solid block;
+	font-size: 35px;
+	text-align: center;
+}
+table tr td:hover{
+	background-color: #2c3531;
+	cursor: pointer;
+}
