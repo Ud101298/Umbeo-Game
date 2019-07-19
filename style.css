@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+
+}
+body{
+	background-image: url('thumb-1920-519000.jpg');
+	background-size: cover;
+
+
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 10px auto;
+	background-color: #f2f2f2;
+}
+table tr td{
+	width: 350px;
+	height: 190px;
+	border: 1px solid block;
+	font-size: 35px;
+	text-align: center;
+}
+table tr td:hover{
+	background-color: #e3e8e6;
+	cursor: pointer;
+}
+@media screen and(max-width: 959px){
+	#table{
+		width: 100%;
+	}
+	#table tr td{
+		padding-top: 42%;
+		width: 70%;
+	}
+}
+
